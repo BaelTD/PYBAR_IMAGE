@@ -55,7 +55,7 @@ if __name__ =='__main__':
 	for file in glob.glob("*.jpg"):
 		print(file)
 
-		im = cv2.imread('/home/bael/Develop/'+file )
+		im = cv2.imread('/home/bael/Develop/bar_image/'+file )
 		print("Apertura immagine codice a barre....")
 		time.sleep(2)
 		if im is not None :
